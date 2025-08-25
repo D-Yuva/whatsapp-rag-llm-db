@@ -1,0 +1,14 @@
+# Core libraries
+numpy>=1.24.0
+python-dateutil>=2.8.2
+python-dotenv>=1.0.0
+httpx>=0.27.0
+
+# Vector embeddings
+sentence-transformers>=2.7.0
+
+# Torch (CPU or Apple Silicon MPS)
+# CPU only:
+# torch>=2.2.0 --index-url https://download.pytorch.org/whl/cpu
+# Apple Silicon (MPS):
+# pip install torch torchvision torchaudio
