@@ -1,5 +1,19 @@
-/env
-.env
-/exports
-/vectors
+# venvs
+.venv/
+venv/
+env/
 
+# OS
+.DS_Store
+
+# project data (generated/local)
+vectors/
+exports/
+
+# sqlite and caches
+*.sqlite
+*.db
+__pycache__/
+
+# secrets
+.env
