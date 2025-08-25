@@ -25,7 +25,7 @@ It embeds your WhatsApp `.txt` exports, lets an LLM plan **multi-queries** from 
     python -m venv .venv
     source .venv/bin/activate
 
-# install core dependencies
+### install core dependencies
     pip install -U pip
     pip install -r requirements.txt
 
