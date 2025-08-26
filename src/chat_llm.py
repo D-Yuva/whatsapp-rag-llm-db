@@ -130,6 +130,7 @@ IST = timezone(timedelta(hours=5, minutes=30))
 # Once the LLM gets the <RAG_CONTEXT> -> Retrieved messages
 SYSTEM_PROMPT = (
     "Important: There are NO tools available. Do NOT emit tool_calls.\n"
+    "Do not generate on your own, make sure to go through the TOPICS_DB and the SQL DATABASE for retrieval don't answer without doing this."
     "Do NOT include chain-of-thought or 'thinking'; output only the fenced rag_query and the final answer.\n"
     "You are a focused WhatsApp retrieval assistant.\n"
     "You have a second system message named TOPICS_DB containing a JSON object of course headings mapped to lists of items (portions).\n"
